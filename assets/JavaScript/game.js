@@ -71,7 +71,7 @@ $(document).ready(function() {
         $("#uScore").text("User Score: " + userScore);
         if (userScore === gameScore) {
           winGame();
-        } else if (userScore > gameScore) {
+        }else{ (userScore > gameScore) 
           loseGame();
         }
     });
@@ -83,7 +83,7 @@ $(document).ready(function() {
         $("#uScore").text("User Score: " + userScore);
         if (userScore === gameScore) {
           winGame();
-        } else if (userScore > gameScore) {
+        }else{ (userScore > gameScore)
           loseGame();
         }
     });
@@ -95,7 +95,7 @@ $(document).ready(function() {
       $("#uScore").text("User Score: " + userScore);
         if (userScore === gameScore) {
           winGame();
-        } else if (userScore > gameScore) {
+        }else{ (userScore > gameScore) 
           loseGame();
         }
     });
