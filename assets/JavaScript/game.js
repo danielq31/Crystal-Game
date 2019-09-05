@@ -6,7 +6,7 @@ $(document).ready(function() {
       var lossCount = 0; // counter for game losses
       $("#lScore").text("Losses: " + lossCount);
       var userScore = 0; // counter for user score
-      var gameScore = Math.floor(Math.random() * 102) + 19; 
+      var gameScore = Math.floor(Math.random() * 101) + 19; 
       var crystalOne = Math.floor(Math.random() * 12) + 1; 
       var crystalTwo = Math.floor(Math.random() * 12) + 1; 
       var crystalThree = Math.floor(Math.random() * 12) + 1; 
@@ -22,7 +22,7 @@ $(document).ready(function() {
     
     function resetGame() {
       userScore = 0;
-      gameScore = Math.floor(Math.random() * 102) + 19; 
+      gameScore = Math.floor(Math.random() * 101) + 19; 
       crystalOne = Math.floor(Math.random() * 12) + 1; 
       crystalTwo = Math.floor(Math.random() * 12) + 1; 
       crystalThree = Math.floor(Math.random() * 12) + 1; 
