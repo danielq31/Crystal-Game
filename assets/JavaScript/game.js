@@ -54,7 +54,7 @@ $(document).ready(function() {
   
     // on click function for crystalOne
     $("#crystal1").click(function() {
-      userScore = userScore + crystalOne; // adds value of crystalOne to userScore
+      userScore = userScore + crystalOne; 
       console.log("User Score: " + userScore);
       $("#uScore").text("User Score: " + userScore);
         if (userScore === gameScore) {
@@ -66,7 +66,7 @@ $(document).ready(function() {
   
     // creates on click function for crystalTwo
     $("#crystal2").click(function() {
-      userScore = userScore + crystalTwo; // adds value of crystalTwo to userScore
+      userScore = userScore + crystalTwo; 
       console.log("User Score: " + userScore);
         $("#uScore").text("User Score: " + userScore);
         if (userScore === gameScore) {
@@ -78,7 +78,7 @@ $(document).ready(function() {
   
     // creates on click function for crystalThree
     $("#crystal3").click(function() {
-      userScore = userScore + crystalThree; // adds value of crystalThree to userScore
+      userScore = userScore + crystalThree;
       console.log("User Score: " + userScore);
         $("#uScore").text("User Score: " + userScore);
         if (userScore === gameScore) {
@@ -90,7 +90,7 @@ $(document).ready(function() {
   
     // creates on click function for crystalFour
     $("#crystal4").click(function() {
-      userScore = userScore + crystalFour; // adds value of crystalFour to userScore
+      userScore = userScore + crystalFour; 
       console.log("User Score: " + userScore);
       $("#uScore").text("User Score: " + userScore);
         if (userScore === gameScore) {
